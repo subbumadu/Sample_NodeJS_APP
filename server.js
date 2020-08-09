@@ -14,7 +14,7 @@ app.get('/', function(req, res){
 
 app.get('/about-us', function(req, res){
   res.render('about-us', {
-    title: "Welcome to About us page",
+    title: "Welcome to APP About us page",
     date: new Date()
   });
 });

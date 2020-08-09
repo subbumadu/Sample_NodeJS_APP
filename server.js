@@ -7,7 +7,7 @@ app.set('view engine', 'jade');
 
 app.get('/', function(req, res){
 		res.render('home', {
-			title: "Welcome to Home page",
+			title: "Welcome to APP Home page",
 			date: new Date()
 		});
 });

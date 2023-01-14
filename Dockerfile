@@ -1,6 +1,6 @@
 FROM node:12
 
-MAINTAINER samudu rajesh kumar
+MAINTAINER subbu
 
 COPY . /src/app
 
